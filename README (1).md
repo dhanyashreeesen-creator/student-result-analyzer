@@ -1,4 +1,4 @@
-# 📊 Student Result Analyzer
+# Student Result Analyzer
 
 A Python script that reads student marks from a CSV file, calculates results,
 identifies the class topper, flags failures, and exports a clean summary report.
@@ -7,7 +7,7 @@ Built as a portfolio project by a first-year engineering student.
 
 ---
 
-## 🚀 What It Does
+##  What It Does
 
 - Reads student marks from `students.csv`
 - Calculates **Total**, **Average**, and **Grade** for every student
@@ -18,7 +18,7 @@ Built as a portfolio project by a first-year engineering student.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 student-result-analyzer/
@@ -34,7 +34,7 @@ student-result-analyzer/
 
 ---
 
-## ⚙️ Setup & Installation
+##  Setup & Installation
 
 ### Step 1 — Make sure Python is installed
 ```bash
@@ -57,7 +57,7 @@ will be created in the same folder.
 
 ---
 
-## 📝 Input Format (`students.csv`)
+##  Input Format (`students.csv`)
 
 The CSV file must have this exact structure:
 
@@ -74,7 +74,7 @@ Priya Patel,72,65,80,70,78
 
 ---
 
-## 🖥️ Sample Output
+##  Sample Output
 
 ```
 ============================================================
@@ -86,8 +86,8 @@ Priya Patel,72,65,80,70,78
   Failed         : 3
   Pass Rate      : 80.0%
 
-  🏆 Class Topper : Sneha Gupta  (471 marks, A+)
-  ⚠️  Needs Help   : Harsh Agarwal  (190 marks, F)
+   Class Topper : Sneha Gupta  (471 marks, A+)
+    Needs Help   : Harsh Agarwal  (190 marks, F)
 
   Subject-wise Class Average:
     Math        : 68.7
@@ -105,7 +105,7 @@ Priya Patel,72,65,80,70,78
 
 ---
 
-## 🎲 Generating Random Test Data
+##  Generating Random Test Data
 
 Want to test with a bigger dataset?
 
@@ -118,7 +118,7 @@ This overwrites `students.csv` with new random data. Then run `analyzer.py` agai
 
 ---
 
-## 🛠️ Customization
+##  Customization
 
 | What you want to change | Where to change it |
 |---|---|
@@ -129,7 +129,7 @@ This overwrites `students.csv` with new random data. Then run `analyzer.py` agai
 
 ---
 
-## 🧠 Concepts Used
+##  Concepts Used
 
 | Concept | Where it appears |
 |---|---|
@@ -143,7 +143,7 @@ This overwrites `students.csv` with new random data. Then run `analyzer.py` agai
 
 ---
 
-## 🔮 Possible Extensions
+##  Possible Extensions
 
 - [ ] Add a bar chart using `matplotlib` showing subject averages
 - [ ] Export results to an Excel file using `openpyxl`
@@ -153,14 +153,14 @@ This overwrites `students.csv` with new random data. Then run `analyzer.py` agai
 
 ---
 
-## 👤 Author
+##  Author
 
-**[Your Name]**  
+**DHANYASHREE SEN**  
 First Year Engineering Student  
 [Your College Name]
 
 ---
 
-## 📄 License
+##  License
 
 This project is open source and available under the [MIT License](LICENSE).
